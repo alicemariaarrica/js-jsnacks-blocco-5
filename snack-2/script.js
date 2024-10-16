@@ -4,7 +4,7 @@ const people = [
   { name: 'Marco', age: 67 }
 ];
 
-// Stampa in console tutti i nomi
+// Stampa in console tutti i nomi dell'array
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
 console.log(people.map(person => person.name).join(", "));
