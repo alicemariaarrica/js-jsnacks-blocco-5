@@ -9,6 +9,13 @@ const posts = [
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
 
 
-let newArray = [];
+//let newArray = [];  //l'output non cambia con o senza newArray perchè in questo esempio non serve
 
-console.log(posts.map(oggetto=> oggetto.author).join(", "));
+//console.log(posts.map(oggetto=> oggetto.author).join(", ")); //output---> Marco, Luca, Fabrizio, Enrico
+
+
+
+let newArray = posts.map(oggetto => oggetto.author);
+
+
+console.log(newArray.join(", ")); //output-----> Marco, Luca, Fabrizio, Enrico
