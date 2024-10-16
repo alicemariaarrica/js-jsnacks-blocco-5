@@ -23,10 +23,14 @@ const students = [
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
 
 
-const studentId2 = students.filter(function(student) {
-  return student.id === 2; 
-});
+let studentId2;
 
-const result = studentId2[0];
-
-console.log(result); 
+for (let i = 0; i < students.length; i++) {
+  
+    if (students[i].id === 2) {
+        
+        studentWithId2 = students[i];
+        break; 
+    }
+}
+console.log(studentId2); // 
