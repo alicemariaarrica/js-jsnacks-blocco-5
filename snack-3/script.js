@@ -17,9 +17,11 @@ for  ( let i=0; i<numbers.length; i++){
 
 console.log(newArray)
 
-//metodoMap:
+//metodoMap
 
-//const incrementedNumbers = numbers.map(num => num + 1);
 
+//const incrementedNumbers = numbers.map(function(num) {
+    //return num + 1; 
+//});
 
 //console.log(incrementedNumbers);
