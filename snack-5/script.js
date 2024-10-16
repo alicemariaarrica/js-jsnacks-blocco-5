@@ -15,3 +15,13 @@ for (let i = 0; i < nums.length; i++) {
 }
 
 console.log(newArray); 
+
+//metodoFilter 
+
+//const nums = [2, 8, 4, 7, 12, 87];
+
+
+//const evenNumbers = nums.filter(num => num % 2 === 0);
+
+
+//console.log(evenNumbers);

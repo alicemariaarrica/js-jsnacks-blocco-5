@@ -4,6 +4,8 @@ const numbers = [2, 8, 4, 7, 2, 87];
 // Risultato: [3, 9, 5, 8, 3, 88]
 
 
+//metodoCicloFor:
+
 let newArray  = []
 
 for  ( let i=0; i<numbers.length; i++){
@@ -15,3 +17,9 @@ for  ( let i=0; i<numbers.length; i++){
 
 console.log(newArray)
 
+//metodoMap:
+
+//const incrementedNumbers = numbers.map(num => num + 1);
+
+
+//console.log(incrementedNumbers);
